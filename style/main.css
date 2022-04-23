@@ -5,6 +5,7 @@
     /*Font Sizes*/
     --desktop-big-size: 3.6rem;
     --counter-size: 5.6rem;
+    --counter-text-size: 1.4rem;
 }
 * {
     margin: 0;
@@ -55,4 +56,8 @@ main .content {
 }
 .timer .counter {
     font-size: var(--counter-size);
+}
+.timer .counter-text {
+    font-size: var(--counter-text-size);
+    padding-top: 1rem;
 }
